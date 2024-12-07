@@ -1,0 +1,63 @@
+body{
+    background: rgb(27, 27, 27);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    background: whitesmoke;
+    width: 300px;
+    margin: 10px;
+    border-radius: 15px;
+    color: black;
+}
+
+.card-image{
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.cal-1{
+    background-image: url('images/calculator-gradient-icon-for-dark-theme-vector-39315793.jpg');
+}
+
+.cal-2{
+    background-image: url('images/sip-letter-design-sip-letter-logo-design-on-black-background-sip-creative-initials-letter-logo-concept-sip-letter-design-sip-letter-logo-design-on-black-background-s-vector.jpg');
+}
+
+.cal-3{
+    background-image: url('images/how-can-investors-receive-compounding-returns.jpg');
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    background-color: black;
+    color: #d62828;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 50px;
+    
+}
+
+.card:hover{
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0);
+    transition: all 1s ease;
+}
+
+
